@@ -1,0 +1,1 @@
+export default function EmptyState({title='Nothing here yet',message='There is no content to display.'}:{title?:string;message?:string}){return <div className="rounded-2xl border border-slate-200 bg-white p-10 text-center"><h3 className="font-bold text-slate-900">{title}</h3><p className="mt-2 text-sm text-slate-500">{message}</p></div>}
