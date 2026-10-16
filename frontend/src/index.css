@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-bg: #ffffff;
+  --color-surface-1: #ffffff;
+  --color-surface-2: #f1f4f8;
+  --color-surface-3: #e4eaf1;
+  --color-border: rgba(16,24,40,0.07);
+  --color-border-subtle: rgba(16,24,40,0.04);
+  --color-primary: #5b8def;
+  --color-primary-light: #85abf4;
+  --color-primary-dim: rgba(91,141,239,0.15);
+  --color-amber: #d6a760;
+  --color-amber-dim: rgba(214,167,96,0.12);
+  --color-emerald: #45b78a;
+  --color-red: #e46767;
+  --color-text: #101828;
+  --color-text-2: #344054;
+  --color-text-3: #667085;
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+  --font-display: 'Instrument Serif', serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: #ffffff;
+  color: #101828;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+}
+
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 99px; }
+::-webkit-scrollbar-thumb:hover { background: #5b8def; }
+
+::selection { background: rgba(91,141,239,0.3); color: #101828; }
+
+input, select, textarea, button { font-family: inherit; }
